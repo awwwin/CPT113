@@ -11,5 +11,6 @@ The text-based game is an interactive game where players test their knowledge by
 
 ## How to play the game 
 
-## Object oriented concept 
+
+## Object oriented concept & implementation of linked lists/stacks/queues in the game 
 
