@@ -6,8 +6,17 @@ Hangman: Countries Edition is a challenging text-based guessing game where playe
 
 ## Features of the game 
 
-1. Clue-Based Questions: Players can ask yes or no questions to gather clues about the country they are trying to guess. The game responds with simple "yes" or "no" answers, providing guidance to help players narrow down their guesses.
-2. Game State Saving: The use of linked lists allows players to save the game's state at any point. This feature enables players to pause the game and resume from where they left off later, without losing progress. ** nanti tambah lagi
+Random word selection: The game randomly selects a word from a predefined list of countries.
+
+1) Hidden word representation: The unknown word is initially displayed with asterisks (*) representing each letter.
+2) User input: The player can input a single letter as a guess.
+3) Letter matching: The game checks if the guessed letter matches any letters in the chosen word. If there is a match, the corresponding asterisks in the unknown word are replaced with the correct letter.
+4) Wrong guesses tracking: The game keeps track of the number of wrong guesses made by the player. The player has a maximum number of allowed wrong guesses.
+5) Feedback on correct/incorrect guesses: The game provides feedback to the player on whether their guess is correct or incorrect.
+6) Guessed letters tracking: The game keeps track of the letters that the player has already guessed and prevents the player from guessing the same letter multiple times.
+7) Win condition: If the player correctly guesses all the letters in the word, they win the game and receive a victory message.
+8) Lose condition: If the player exhausts the maximum number of wrong guesses without correctly guessing the word, they lose the game and receive a defeat message. The correct word is also displayed.
+9) User interface: The game provides a simple command-line interface where the player can interact by entering letters as guesses.
 
 ## How to play the game 
 
