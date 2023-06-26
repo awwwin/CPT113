@@ -20,6 +20,8 @@ Random word selection: The game randomly selects a word from a predefined list o
 
 ## How to play the game 
 
+To play the Hangman game, you will be presented with a hidden word represented by asterisks. Your task is to guess the letters in the word by inputting a single letter at a time. If your guess is correct, the corresponding asterisks will be replaced with the letter in the correct positions. However, if your guess is wrong, the game will keep track of the number of wrong guesses. You have a limited number of attempts to guess the word. Be careful not to guess the same letter twice. If you successfully guess all the letters in the word before running out of attempts, you win the game. But if you exceed the maximum number of wrong guesses without guessing the word correctly, you lose.
+
 
 ## Object oriented concept & implementation of linked lists/stacks/queues in the game 
 
