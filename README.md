@@ -1,26 +1,27 @@
 # Hangman Game
 ## Description of the game 
 
-Hangman: Countries Edition is a challenging text-based guessing game where players need to correctly identify the name of a country. The game begins with a random country's name hidden by a series of underscores, representing the letters in the word. Players must guess one letter at a time, and if the letter is in the country's name, it is revealed in its correct position(s). However, incorrect guesses result in strikes. Players have a limited number of attempts to guess the country before the hangman is fully revealed, leading to a loss. Hints are available but come with penalties, so players must strategize to achieve the highest score by guessing the country with the fewest incorrect attempts and hints. It's a fun and engaging way to test your knowledge of countries while challenging yourself to win the game!
+The objective of Hangman: Countries Edition is to accurately guess the name of a country in a text-based format, presenting a challenging gameplay experience. The objective of the game is to guess the name of a randomly selected country, which is initially concealed by a sequence of underscores that correspond to the letters in the word. The process of guessing one letter at a time and revealing it in the correct position(s) if it is present in the country's name is a crucial aspect of the game. Incorrect guesses lead to strikes. The game of hangman involves a finite number of guesses for players to correctly identify the country being represented, with failure to do so resulting in the gradual revelation of the hangman and ultimate defeat. In this game, players must use strategic thinking to attain the maximum score by accurately guessing the country with the least number of incorrect attempts and hints, which come with associated penalties. The game provides an enjoyable and captivating means of assessing one's understanding of countries, while simultaneously encouraging the player to strive for victory.
 
 
 ## Features of the game 
 
-Random word selection: The game randomly selects a word from a predefined list of countries.
+Random word selection: The game chooses a word at random from a prepared list of countries.
 
-1) Hidden word representation: The unknown word is initially displayed with asterisks (*) representing each letter.
-2) User input: The player can input a single letter as a guess.
-3) Letter matching: The game checks if the guessed letter matches any letters in the chosen word. If there is a match, the corresponding asterisks in the unknown word are replaced with the correct letter.
-4) Wrong guesses tracking: The game keeps track of the number of wrong guesses made by the player. The player has a maximum number of allowed wrong guesses.
-5) Feedback on correct/incorrect guesses: The game provides feedback to the player on whether their guess is correct or incorrect.
-6) Guessed letters tracking: The game keeps track of the letters that the player has already guessed and prevents the player from guessing the same letter multiple times.
-7) Win condition: If the player correctly guesses all the letters in the word, they win the game and receive a victory message.
-8) Lose condition: If the player exhausts the maximum number of wrong guesses without correctly guessing the word, they lose the game and receive a defeat message. The correct word is also displayed.
-9) User interface: The game provides a simple command-line interface where the player can interact by entering letters as guesses.
+1) Hidden word representation: The unknown word is originally presented with asterisks (*) signifying each letter.
+2) User input: The player may enter a single letter as a guess.
+3) Letter matching: The game checks to see if the guessed letter matches any letters in the chosen word. If there is a match, the matching asterisks in the unknown word are substituted with the proper letter.
+4) Wrong guesses tracking: The game maintains track of the amount of incorrect guesses made by the player. The player is only allowed a certain amount of incorrect predictions.
+5) Feedback on correct/incorrect guesses: The game informs the player whether their guess was correct or incorrect.
+6) Tracking of previously guessed letters: The game maintains track of the letters that the player has already guessed and prevents the player from guessing the same letter several times.
+7) Win condition: If the player correctly guesses all of the letters in the word, they win the game and receive a victory message.
+8) Lose condition: If a player exhausts the maximum number of incorrect guesses without correctly guessing the word, they lose the game and receive a defeat message. The proper term is also displayed.
+9) User interface: The game includes a simple command-line interface via which the user can interact by entering letters as guesses.
+
 
 ## How to play the game 
 
-To play the Hangman game, you will be presented with a hidden word represented by asterisks. Your task is to guess the letters in the word by inputting a single letter at a time. If your guess is correct, the corresponding asterisks will be replaced with the letter in the correct positions. However, if your guess is wrong, the game will keep track of the number of wrong guesses. You have a limited number of attempts to guess the word. Be careful not to guess the same letter twice. If you successfully guess all the letters in the word before running out of attempts, you win the game. But if you exceed the maximum number of wrong guesses without guessing the word correctly, you lose.
+In order to play the Hangman game, you will be presented with a word that is hidden and represented by asterisks. Your objective is to guess the letters in the word by entering one letter at a time. When you make a correct guess, the asterisks will be replaced with the corresponding letter in the correct positions. In case your guess is incorrect, the game will record the number of incorrect guesses. You are allowed a limited amount of attempts to guess the word. Please ensure that you do not make the mistake of guessing the same letter more than once. To win the game, you need to guess all the letters in the word correctly before you run out of attempts. If you make more incorrect guesses than the maximum allowed limit without correctly guessing the word, you will lose the game.
 
 
 ## Object oriented concept & implementation of linked lists/stacks/queues in the game
